@@ -4,7 +4,7 @@ steps:
     title: Running Deploy Script
     type: deploy
     kind: kubernetes
-    cluster: my-cluster@FirstKubernetes
+    cluster: cluster-1@Emirates
     namespace: default
     when:
       branch:
